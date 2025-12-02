@@ -10,3 +10,6 @@ This file executes multiple functions. The first function converts numbers from 
 
 // test.py //
 This is a test file that sets a literal value to the variables WINDOW_W and WINDOW_H. Then creates a class "CountyMapApp" that loads the county shapes, generates a fixed name for you file, provides some example population data for some counties. "project" Converts the latatude and longitude's into pixel coordinates. "draw_map" draws each polygon for each county. "on_mouse_move" Highlights each county and shows tooltip when highlighted.
+
+// UI.py // 
+In this file is the user interface. It first creates the main application window lable widget and an entry widget that users can enter there name. Then there is a feature added for if there is no characters added there will be an error prompting the user to enter there name. When the user inputs there name they will be given a greeting "Hello <name entered by user!>". Then creates a widget button for greeting and for exit, which then starts the Tkinter event loop.
